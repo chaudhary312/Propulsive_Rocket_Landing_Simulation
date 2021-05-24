@@ -25,7 +25,7 @@ We implement the hyperparameters to find the solution.
 
 The solution implemented is based on three particular hyperparameters that had to be carefully selected to achieve successful results: 
 
-A learning rate (α), a discount factor (α) of future rewards, and a decline rate (α-decay) to ensure proper operation and exploration balance.
+A learning rate (α), a discount factor (γ) of future rewards, and a decline rate (ε-decay) to ensure proper operation and exploration balance.
 The three values for α were 0.01, 0.001 and 0.0001.
 The results were examined to find how the learning rate affects the agent's convergence during training.
 
@@ -166,8 +166,8 @@ After each episode, the ε value is constantly decreased, which allows the agent
 The solution implemented is based on three particular hyperparameters that had to be carefully selected to achieve successful results:
 
 - A learning rate (α)
-- A discount factor (α) of future rewards 
-- A decline rate (α-decay) to ensure proper operation and exploration balance. 
+- A discount factor (γ) of future rewards 
+- A decline rate (ε-decay) to ensure proper operation and exploration balance. 
 
 The solution is used to achieve successfully.
 A grid search for three possible values for every α and γ was performed in combination with ε - decay constant to determine the best values. 
