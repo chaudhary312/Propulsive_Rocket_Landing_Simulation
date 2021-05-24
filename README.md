@@ -1,4 +1,4 @@
-<h1 align =  "center">Propulsive Rocket Landing Simulation Using Greedy Approach </h1>
+<h1 align =  "center">Propulsive Rocket Landing Simulation Using Q - Learning Approach </h1>
 
 ## Introduction
 
