@@ -2,43 +2,31 @@
 
 ## Introduction
 
-
 AI advancements are currently accelerating (no pun intended). 
 Every year, researchers generate ground-breaking ideas, and this amazing field is still in its infancy. 
 Reinforcement learning is one of the most fascinating areas of artificial intelligence. 
 RL has been responsible for some of the most impressive AI examples, such as OpenAI developing an agent that outperformed the best professional human players.
 
-
 RL has been responsible for some of the most exciting AI examples, such as OpenAI developing an agent that defeated the top professional human players in the e-sport DOTA 2! It is a huge accomplishment for an AI to be able to generate and learn complex strategies in a game as complex as DOTA 2, and it will push research even closer to achieving artificial general intelligence (AGI).
 
-
 Aside from outperforming humans in games, RL can be used in a variety of fields such as financial trading, natural language processing, healthcare, manufacturing, and education.
-
 
 In this project, we try to solve the problem of excessive cost of researching the optimal ways of landing a rocket with minimal damage to the rocket and minimal shocks to 
 the rocket crew using the Reinforcement learning.
 
-
 The implementation of the project starting from the agent uses the Deep Neural Network (DNN) to approximate a function of Q*(s, a), which circumvents the limitingthe standard infinite state spaces of the Q - learning algorithm.
-
 
 For the implementation of the DNN, we used TensorFlow. A small batch of observations from this list have been selected altered, and are then employed as inputs for training the weights of the DNN.
 The initial setup has been modified to overcome this problem and two networks have been implemented, the first network is Q network which is constantly updated by the Q – target network.
-
 
 Finally, the agent takes an ε - greedy to choose a random action with a probability ε on each step and the best action the network has learned with a probability from 1 - ε.
 
 We implement the hyperparameters to find the solution.
 
-
 The solution implemented is based on three particular hyperparameters that had to be carefully selected to achieve successful results: 
 
-
 A learning rate (α), a discount factor (α) of future rewards, and a decline rate (α-decay) to ensure proper operation and exploration balance.
-
-
 The three values for α were 0.01, 0.001 and 0.0001.
-
 The results were examined to find how the learning rate affects the agent's convergence during training.
 
 ## WHY DO WE NEED THIS?
@@ -259,7 +247,7 @@ In addition to much scope for improvement, the current implementation has succes
 6. T. Y. Park, J. C. Park, and H. U. Oh, “Evaluation of structural design methodologies for predicting mechanical reliability of solder joint of BGA and TSSOP under launch random vibration excitation,” International Journal of Fatigue, vol. 114, pp. 206–216, 2018.
 7. OpenAi Gym Official Documentation
 
-# Team Of
+## Team Of
 - [Abhishek Chaudhary](https://github.com/chaudhary312)
 - [Khushi Agrawal](https://github.com/khushi-411)
 - [Prabhat Kumar](https://github.com/prabhatk579)
