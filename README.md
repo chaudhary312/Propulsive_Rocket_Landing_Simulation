@@ -121,7 +121,7 @@ The Adam can be described as combination of two additional extensions of stochas
 
 ### Equation of Q - learning
 
-```New Q(s,a) = Q(s,a) + 𝛼 R(s,a) + 𝛾 max𝑄′(𝑠′,𝑎′) – Q(s,a)] …(1)```
+```New Q(𝑠,𝑎) = Q(𝑠,𝑎) + 𝛼 R(𝑠,𝑎) + 𝛾 max𝑄′(𝑠′,𝑎′) – Q(𝑠,𝑎)] …(1)```
 
 Where,
 
@@ -134,9 +134,9 @@ Where,
 
 > NewQ: New Q value for that state and that action.
 
-> Q(s,a): Current Q value.
+> Q(𝑠,𝑎): Current Q value.
 
-> R(s,a): Reward for taking that action at that state.
+> R(𝑠,𝑎): Reward for taking that action at that state.
 
 
 ## Implementation
